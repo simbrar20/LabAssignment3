@@ -16,6 +16,9 @@ html, body {
 .circle {
   border-radius: 50%;
 }
+.drop-shadow {
+  text-shadow: 1px 2px 3px #000;
+}
 #home-container {
   height: 100%;
   display: grid;
@@ -50,7 +53,7 @@ html, body {
   color: #FFF;
   text-decoration: none;
   padding: 15px .5em;
-  /* font-size: 1.35em; */
+  text-shadow:2px 2px 3px #000;
 }
 .home-main-nav > ul > li:first-child {
   font-family: 'Cookie', cursive;
